@@ -10,7 +10,7 @@ DWS - Ejercicios del Tema 6 - POO y MVC
      - Peso
      - Altura
    - Crea un constructor que reciba todos los valores necesario para inicializar el objeto.
-   - Añade los métodos **consultores** y **modificadores** de todos los atributos.
+   - Añade los métodos **consultores** (Get) y **modificadores** (Set) de todos los atributos.
    - Crea una función **mostrar** que muestre una línea con todos los atributos.
    - Dentro del archivo, pero fuera de la clase, llama al constructor de la clase y al método mostrar.
    - Llama a los métodos modificadores y vuelve a invocar al método mostrar.
