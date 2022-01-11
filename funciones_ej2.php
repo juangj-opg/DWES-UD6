@@ -95,11 +95,11 @@ class Trabajador extends Persona{
 
     // Get y Setter para la nueva variable de Trabajador
 
-    public function getNombre(){
+    public function getNombreEmpresa(){
         return $this->nombreEmpresa;
     }
 
-    public function setNombre($nombreEmpresa){
+    public function setNombreEmpresa($nombreEmpresa){
         $this->nombreEmpresa = $nombreEmpresa;
     }
 
