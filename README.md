@@ -55,4 +55,7 @@ DWS - Ejercicios del Tema 6 - POO y MVC
          public function juegaPartido();
       }
       ```
+# Ejercicio 6 - Comprobar instancia
+ - **ejercicio6.php**
+   - Utiliza el operador **instanceof** para comprobar que la clase EquipoFutbol del ejercicio anterior, es instancia de las dos interfacaes que implementa.
 

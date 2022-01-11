@@ -92,6 +92,14 @@ include "cabecera.php";
     </ul>
 </ul>
 
+<h2>Ejercicio 6 - POO - Comprobar interfaz</h2>
+<ul>
+    <li><a href="./ejercicio6.php"><h3 class="nopad">ejercicio6.php</h3></a></li>
+    <ul>
+        <li>Utiliza el operador <b>instanceof</b> para comprobar que la clase EquipoFutbol del ejercicio anterior, es instancia de las dos interfacaes que implementa.</li>
+    </ul>
+</ul>
+
 
    
 
