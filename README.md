@@ -44,11 +44,11 @@ DWS - Ejercicios del Tema 6 - POO y MVC
    - A partir de la interfaz del final, desarrolla la clase **EquipoFutbol** que inmplemente dicha interfaz.
      - Debe tener un atributo que sea el número de jugadores en plantilla
      - Debe tener un atributo que sea el nombre del equipo
-     - Tendrá un método juegaPartido que devovlerá por pantalla el nombre del equipo y la palabra 'VICTORIA'.
+     - Tendrá un método **juegaPartido** que devovlerá por pantalla el nombre del equipo y la palabra 'VICTORIA'.
    - Desarrolla otra interfaz que sea **ICampeonato**, y en esa interfaz:
      - Incluye un método que devuelva el nombre del campeonato
-     - Modificala clase EquipoFutbol para que también impelmente la interfaz ICampeonato
-   - Interfaz IEquipoFutbol:
+     - Modifica la clase EquipoFutbol para que también implemente la interfaz **ICampeonato**
+   - Interfaz **IEquipoFutbol**:
       ```
       interface IEquipoFutbol{
          public function getNumeroJugadores();

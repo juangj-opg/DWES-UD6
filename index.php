@@ -69,6 +69,29 @@ include "cabecera.php";
     </ul>
 </ul>
 
+<h2>Ejercicio 5 - POO - Interfaces</h2>
+<ul>
+    <li><a href="./ejercicio5.php"><h3 class="nopad">ejercicio5.php</h3></a></li>
+    <ul>
+        <li>A partir de la interfaz del final, desarrolla la clase <b>EquipoFutbol</b> que inmplemente dicha interfaz.</li>
+        <ul>
+            <li>Debe tener un atributo que sea el número de jugadores en plantilla</li>
+            <li>Debe tener un atributo que sea el nombre del equipo</li>
+            <li>Tendrá un método <b>juegaPartido</b> que devovlerá por pantalla el nombre del equipo y la palabra 'VICTORIA'.</li>
+        </ul>
+        <li>Desarrolla otra interfaz que sea <b>ICampeonato</b>, y en esa interfaz:</li>
+        <ul>
+            <li>Incluye un método que devuelva el nombre del campeonato.</li>
+            <li>Modifica la clase <b>EquipoFutbol</b> para que también implemente la interfaz ICampeonato</li>
+        </ul>
+        <li><b>Interfaz IEquipoFutbol:</b></li>
+        interface IEquipoFutbol{<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;public function getNumeroJugadores();<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;public function juegaPartido();<br>
+        }
+    </ul>
+</ul>
+
 
    
 
