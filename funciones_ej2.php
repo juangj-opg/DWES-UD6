@@ -84,6 +84,7 @@ class Persona{
 // Clase Trabajador, subclase de Persona 
 class Trabajador extends Persona{
     protected $nombreEmpresa;
+    
 
     // Constructor de Trabajador, implementado el de Persona en este.
     public function __construct($nombre, $dni, $sexo, $peso, $altura, $nombreEmpresa)
@@ -105,6 +106,17 @@ class Trabajador extends Persona{
 
     // Fin definicion de las funciones del Get Y Setter
 
+    // Función Mostrar en Trabajador, que se encarga de llamar a la función que hay en Persona.
+
+    public function Mostrar()
+    {
+        return Persona::Mostrar();
+    }
+    // Función para mostrar toda la info, incluyendo la de la clase Persona.
+
+    public function MostrarTodo(){
+        return "$this->nombre, trabajador de $this->nombreEmpresa, con DNI $this->dni, sexo $this->sexo, $this->peso kg y $this->altura m.";
+    }
 }
 
 
