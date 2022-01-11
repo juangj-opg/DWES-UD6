@@ -44,7 +44,7 @@ include "cabecera.php";
     </ul>
 </ul>
 
-<h3>Ejercicio 3 - POO - Métodos especiales</h3>
+<h2>Ejercicio 3 - POO - Métodos especiales</h2>
 <ul>
     <li><a href="./ejercicio3.php"><h3 class="nopad">ejercicio3.php</h3></a></li>
     <ul>
