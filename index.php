@@ -100,6 +100,22 @@ include "cabecera.php";
     </ul>
 </ul>
 
+<h2>Ejercicio 7 - Jerarquía de clase</h2>
+<ul>
+    <li><a href="./ejercicio7.php"><h3 class="nopad">ejercicio7.php</h3></a></li>
+    <ul>
+        <li>Desarrolla el código PHP necesario para realizzar la siguiente jerarquía de clases.</li>
+        <ul>
+            <li><b>FiguraGeometrica</b> y sus métodos son abstactos.</li>
+            <li><b>FiguraGeometrica</b> incluye un atributo que es el color</li>
+            <li>El método <b>Dibuja</b> muestra por pantalla el tipo de figura y el color.</li>
+            <li>El método <b>Area</b> devuelve el area de la figura geométrica, añade los atributos necesarios a cada clase. (Por ejemplo, para el cuadrado, tendremos que tener el tamaño del lado)</li>
+            <li>Haz pruebas para comprobar que todo funciona correctamente y que los objetos creados son instancias de <b>FiguraGeometrica</b>.</li>
+        </ul>
+    </ul>
+</ul>
+
+
 
    
 

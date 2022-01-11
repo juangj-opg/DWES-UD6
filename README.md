@@ -59,3 +59,12 @@ DWS - Ejercicios del Tema 6 - POO y MVC
  - **ejercicio6.php**
    - Utiliza el operador **instanceof** para comprobar que la clase EquipoFutbol del ejercicio anterior, es instancia de las dos interfacaes que implementa.
 
+# Ejercicio 7 - Jerarquía de clase
+ - **ejercicio 7.php**
+   - Desarrolla el código PHP necesario para realizar la siguiente jerarquía de clases.
+     - **FiguraGeometrica** y sus métodos son abstactos.
+     - **FiguraGeometrica** incluye un atributo que es el color
+     - El método **Dibuja** muestra por pantalla el tipo de figura y el color.
+     - El método **Area** devuelve el area de la figura geométrica, añade los atributos necesarios a cada clase. (Por ejemplo, para el cuadrado, tendremos que tener el tamaño del lado)
+     - Haz pruebas para comprobar que todo funciona correctamente y que los objetos creados son instancias de **FiguraGeometrica**.
+
