@@ -13,7 +13,9 @@ echo "<h2>Ejercicio 2</h2>";
 
 include_once "funciones_ej2.php";
 
-$Persona1 = new Persona("Juan","12345678A","Masculino","85.3","1.75");
+$Trabajador1 = new Trabajador("Juan","12345678A","Masculino","85.3","1.75","OPGames");
+
+echo $Trabajador1->getNombre();
 
 ?>
 </body>

@@ -81,6 +81,31 @@ class Persona{
 
 }
 
+// Clase Trabajador, subclase de Persona 
+class Trabajador extends Persona{
+    protected $nombreEmpresa;
+
+    // Constructor de Trabajador, implementado el de Persona en este.
+    public function __construct($nombre, $dni, $sexo, $peso, $altura, $nombreEmpresa)
+    {
+        Persona::__construct($nombre, $dni, $sexo, $peso, $altura);
+        $this->nombreEmpresa = $nombreEmpresa;
+    }
+    // Fin Constructor de Trabajador
+
+    // Get y Setter para la nueva variable de Trabajador
+
+    public function getNombre(){
+        return $this->nombreEmpresa;
+    }
+
+    public function setNombre($nombreEmpresa){
+        $this->nombreEmpresa = $nombreEmpresa;
+    }
+
+    // Fin definicion de las funciones del Get Y Setter
+
+}
 
 
 
