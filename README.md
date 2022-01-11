@@ -49,9 +49,10 @@ DWS - Ejercicios del Tema 6 - POO y MVC
      - Incluye un método que devuelva el nombre del campeonato
      - Modificala clase EquipoFutbol para que también impelmente la interfaz ICampeonato
    - Interfaz IEquipoFutbol:
-   interface IEquipoFutbol{
-    public function getNumeroJugadores();
-    public function juegaPartido();
-   }
-
+      ```
+      interface IEquipoFutbol{
+         public function getNumeroJugadores();
+         public function juegaPartido();
+      }
+      ```
 
