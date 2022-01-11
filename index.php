@@ -31,5 +31,20 @@ include "cabecera.php";
     </ul>
 </ul>
 
+<h2>Ejercicio 2 - POO - Subclases</h2>
+<ul>
+    <li><a href="./ejercicio2.php"><h3 class="nopad">ejercicio2.php</h3></a></li>
+    <ul>
+        <li>Utiliza el código del **ejercicio1.php** para crear una clase <b>Trabajador</b> que extienda a <b>Persona</b></li>
+        <li>La clase Trabajador tendrá un único atirbuto que será el <b>nombre de la empresa</b> (NombreEmpresa).</li>
+        <li>Realizar los Get y Set necesarios.</li>
+        <li>Crea un método Mostrar que llame al método Mostrar de la clase padre (Persona).</li>
+        <li>Crea un método MostrarCompleto que muestre toda la información del trabajador</li>
+        <li>Probar ambos métodos.</li>
+    </ul>
+</ul>
+   
+
+
 </body>
 </html>
