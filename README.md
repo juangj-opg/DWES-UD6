@@ -18,9 +18,8 @@ DWS - Ejercicios del Tema 6 - POO y MVC
 # Ejercicio 2 - POO - Subclases
  - **ejercicio2.php**:
    - Utiliza el código del **ejercicio1.php** para crear una clase **Trabajador** que extienda a **Persona**
-   - La clase Trabajador tendrá un único atirbuto que será el **nombre de la empresa** (NombreEmpresa).
+   - La clase Trabajador tendrá un único atirbuto que será el **nombre de la empresa** (nombreEmpresa).
    - Realizar los Get y Set necesarios.
-
    - Crea un método Mostrar que llame al método Mostrar de la clase padre (Persona).
    - Crea un método MostrarCompleto que muestre toda la información del trabajador
    - Probar ambos métodos.
