@@ -73,6 +73,12 @@ class Persona{
 
     // Fin Get y Setters de las variables
 
+    // Funcion mostrar en el que muestre una línea con todos los atributos
+
+    public function Mostrar(){
+        return "$this->nombre, con DNI $this->dni, sexo $this->sexo, $this->peso kg y $this->altura m";
+    }
+
 }
 
 
