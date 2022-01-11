@@ -35,7 +35,7 @@ include "cabecera.php";
 <ul>
     <li><a href="./ejercicio2.php"><h3 class="nopad">ejercicio2.php</h3></a></li>
     <ul>
-        <li>Utiliza el código del **ejercicio1.php** para crear una clase <b>Trabajador</b> que extienda a <b>Persona</b></li>
+        <li>Utiliza el código del <b>ejercicio1.php</b> para crear una clase <b>Trabajador</b> que extienda a <b>Persona</b></li>
         <li>La clase Trabajador tendrá un único atirbuto que será el <b>nombre de la empresa</b> (NombreEmpresa).</li>
         <li>Realizar los Get y Set necesarios.</li>
         <li>Crea un método Mostrar que llame al método Mostrar de la clase padre (Persona).</li>
