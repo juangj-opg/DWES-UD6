@@ -42,6 +42,7 @@
     <li><a <?php if($Nombre[2] == "ejercicio4.php" ) { echo "class='active'"; } ?> href="./ejercicio4.php">Ej. 4 - POO - Getter y Setter</a></li>
     <li><a <?php if($Nombre[2] == "ejercicio5.php" ) { echo "class='active'"; } ?> href="./ejercicio5.php">Ej. 5 - POO - Interfaces</a></li>
     <li><a <?php if($Nombre[2] == "ejercicio6.php" ) { echo "class='active'"; } ?> href="./ejercicio6.php">Ej. 6 - POO - Comprobar interfaz</a></li>
+    <li><a <?php if($Nombre[2] == "ejercicio7.php" ) { echo "class='active'"; } ?> href="./ejercicio7.php">Ej. 7 - POO - Jerarquía de clase</a></li>
     </ul>
 </div>
 
