@@ -55,6 +55,20 @@ include "cabecera.php";
     </ul>
 </ul>
 
+<h2>Ejercicio 4 - POO - Getters y Setters</h2>
+<ul>
+    <li><a href="./ejercicio4.php"><h3 class="nopad">ejercicio4.php</h3></a></li>
+    <ul>
+        <li> Desarrolla un nuevo código PHP para implementar la clase <b>Vivienda</b>, que contendrá 2 atributos:</li>
+        <ul>
+            <li><b>tipoVivienda</b>, que será una cadena de texto (String).</li>
+            <li><b>valorMercado</b>, que será un número con decimales (Float o Double).</li>
+        </ul>
+        <li>Implementa los métodos especiales <b>__get()</b> y <b>__set()</b></li>
+        <li>Módifica el método <b>__set()</b>, de manera que si el parámetro a modificar es valorMercado y el nuevo valor indicado es menor que 0, <b>no se actualice</b>. Utiliza la estructura switch.</li>
+    </ul>
+</ul>
+
 
    
 

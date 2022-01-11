@@ -31,3 +31,11 @@ DWS - Ejercicios del Tema 6 - POO y MVC
    - Crea otro método especial __toString en la clase **Trabajador** de forma que llame al método __toString de **Persona** y concatene la empresa del trabajador.
    - Crea un objeto trabajador y muestralo con echo.
 
+# Ejercicio 4 - POO - Getters y Setters
+ - **ejercicio4.php**:
+   - Desarrolla un nuevo código PHP para implementar la clase **Vivienda**, que contendrá 2 atributos:
+     - **tipoVivienda**, que será una cadena de texto (String).
+     - **valorMercado**, que será un número con decimales (Float o Double).
+   - Implementa los métodos especiales **__get()** y **__set()**
+   - Módifica el método __set(), de manera que si el parámetro a modificar es valorMercado y el nuevo valor indicado es menor que 0, **no se actualice**. Utiliza la estructura switch.
+
