@@ -39,6 +39,7 @@
     <li><a <?php if($Nombre[2] == "ejercicio1.php" ) { echo "class='active'"; } ?> href="./ejercicio1.php">Ej. 1 - POO - Constructores</a></li>
     <li><a <?php if($Nombre[2] == "ejercicio2.php" ) { echo "class='active'"; } ?> href="./ejercicio2.php">Ej. 2 - POO - Subclases</a></li>
     <li><a <?php if($Nombre[2] == "ejercicio3.php" ) { echo "class='active'"; } ?> href="./ejercicio3.php">Ej. 3 - POO - Métodos especiales</a></li>
+    <li><a <?php if($Nombre[2] == "ejercicio4.php" ) { echo "class='active'"; } ?> href="./ejercicio4.php">Ej. 4 - POO - Getter y Setter</a></li>
     </ul>
 </div>
 
