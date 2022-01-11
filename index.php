@@ -43,6 +43,19 @@ include "cabecera.php";
         <li>Probar ambos métodos.</li>
     </ul>
 </ul>
+
+<h3>Ejercicio 3 - POO - Métodos especiales</h3>
+<ul>
+    <li><a href="./ejercicio3.php"><h3 class="nopad">ejercicio3.php</h3></a></li>
+    <ul>
+        <li>Utiliza el código del <b>ejercicio2.php</b> para crear un método especial <b>__toString</b> en la clase <b>Persona</b>, de forma que devuelva una cadena con todos los atributos.</li>
+        <li>Crea un objeto <b>Persona</b> y muestralo con echo.</li>
+        <li>Crea otro método especial __toString en la clase <b>Trabajador</b> de forma que llame al método __toString de <b>Persona</b> y concatene la empresa del trabajador.</li>
+        <li>Crea un objeto trabajador y muestralo con echo.</li>
+    </ul>
+</ul>
+
+
    
 
 

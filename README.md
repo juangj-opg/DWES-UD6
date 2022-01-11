@@ -23,3 +23,11 @@ DWS - Ejercicios del Tema 6 - POO y MVC
    - Crea un método Mostrar que llame al método Mostrar de la clase padre (Persona).
    - Crea un método MostrarCompleto que muestre toda la información del trabajador
    - Probar ambos métodos.
+
+# Ejercicio 3 - POO - Métodos especiales
+ - **ejercicio3.php**:
+   - Utiliza el código del **ejercicio2.php** para crear un método especial **__toString** en la clase **Persona**, de forma que devuelva una cadena con todos los atributos.
+   - Crea un objeto **Persona** y muestralo con echo.
+   - Crea otro método especial __toString en la clase **Trabajador** de forma que llame al método __toString de **Persona** y concatene la empresa del trabajador.
+   - Crea un objeto trabajador y muestralo con echo.
+
