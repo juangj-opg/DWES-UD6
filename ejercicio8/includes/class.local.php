@@ -10,14 +10,30 @@ class Local{
     // Duda sobre las dos variables de Dimensiones, area y dimensiones
     private Dimensiones $dimensiones;
 
-    // Constructor de Local
+    // Constructor de Local y sus condiciones
 
-    public function __construct($ciudad, $calle, $numeroDePlantas, $dimensiones)
+    public function __construct(string $ciudad, string $calle, int $numeroDePlantas, Dimensiones $dimensiones)
     {
-        $this->ciudad = $ciudad;
-        $this->calle = $calle;
-        $this->numeroDePlantas = $numeroDePlantas;
-        $this->dimensiones = $dimensiones ;
+        if(is_string($ciudad))
+            $this->ciudad = $ciudad;
+        else {
+            die();
+        }
+        
+        if(is_string($calle))
+            $this->calle = $calle;
+        else
+            die();
+        
+        if(is_int($numeroDePlantas) && $numeroDePlantas > 0 && $numeroDePlantas < 11)
+            $this->numeroDePlantas = $numeroDePlantas; 
+        else
+            die();
+
+        if($dimensiones instanceof Dimensiones)
+            $this->dimensiones = $dimensiones;
+        else
+            die();
     }
 
     // Setters y Getters
@@ -27,6 +43,7 @@ class Local{
         return $this->$variable;
     }
 
+    // Consultos únicamente de la propiedad Dimensiones
     public function getDimensiones()
     {
         return $this->dimensiones;
@@ -38,7 +55,6 @@ class Local{
     }
 
     // Funcion __toString()
-    // Incompleto, falta lo de las dimensiones.
     public function __toString()
     {
         return "<p>Ciudad: $this->ciudad<br></p><p>Calle: $this->calle</p><p>Plantas: $this->numeroDePlantas</p><p>Dimensiones: ($this->dimensiones)<br></p>";
@@ -48,9 +64,4 @@ class Local{
         $this->dimensiones = clone $this->dimensiones;
     }
 }
-/*
-$obj = new Local("a","a",3,new Dimensiones(10,15,3));
-var_dump($obj);
-echo $obj;
-*/
 ?>

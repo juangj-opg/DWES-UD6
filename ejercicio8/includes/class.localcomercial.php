@@ -5,7 +5,6 @@ class LocalComercial extends Local{
     private string $numeroLicencia;
 
     // Función __toString()
-    // Falta los datos de Local
     public function __toString()
     {
         return "<p>Razón Social: $this->social<br></p><p>Número de Licencia: $this->numeroLicencia<br>".parent::__toString()."</p>";
@@ -15,8 +14,15 @@ class LocalComercial extends Local{
     public function __construct($ciudad, $calle, $numeroDePlantas, $dimensiones, string $social, string $numeroLicencia)
     {
         parent::__construct($ciudad, $calle, $numeroDePlantas, $dimensiones);
-        $this->social = $social;
-        $this->numeroLicencia = $numeroLicencia;
+        if (is_string($social))
+            $this->social = $social;
+        else
+            die();
+
+        if (is_string($numeroLicencia))
+            $this->numeroLicencia = $numeroLicencia;
+        else
+            die();
     }
 }
 ?>

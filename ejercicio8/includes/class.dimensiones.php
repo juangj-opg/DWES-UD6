@@ -22,10 +22,12 @@ class Dimensiones{
             if($valor > 1){
                 $this->$variable = $valor;
             } else {
-                echo "El valor de la $variable es erróneo.";
+                echo "<h3 color='darkred'>El valor insertado en la variable '<b>$variable</b>' es menor que 1.</h3>";
+                die();
             }
         } else {
-            echo "El valor insertado no es un float.";
+            echo "<h3 style=color:darkred>El valor insertado en la variable '<b>$variable</b>', no es un Float.</h3>";
+            die();
         }
     }
 

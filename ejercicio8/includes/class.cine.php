@@ -13,11 +13,11 @@ class Cine extends LocalComercial{
     public function __construct(string $ciudad, string $calle, int $numeroDePlantas, Dimensiones $dimensiones, string $social, string $numeroLicencia, int $aforoSala)
     {
         parent::__construct($ciudad, $calle, $numeroDePlantas, $dimensiones, $social, $numeroLicencia);
-        $this->aforoSala = $aforoSala;
+        
+        if (is_int($aforoSala) && $aforoSala > 0)
+            $this->aforoSala = $aforoSala;
+        else
+            die();
     }
-    // Falta el Setter y otros parametros
 }
-
-/*$obj3 = new Cine('Alicante', 'Calle 1', 1, new Dimensiones(10., 10., 10.),'Razon 1', 'C0001A', 10);
-echo $obj3;*/
 ?>
