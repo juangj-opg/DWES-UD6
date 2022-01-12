@@ -12,9 +12,9 @@ class LocalComercial extends Local{
     }
 
     // Constructor clase LocalComercial
-    public function __construct($ciudad, $calle, $numeroDePlantas, $area, string $social, string $numeroLicencia)
+    public function __construct($ciudad, $calle, $numeroDePlantas, $dimensiones, string $social, string $numeroLicencia)
     {
-        parent::__construct($ciudad, $calle, $numeroDePlantas, $area);
+        parent::__construct($ciudad, $calle, $numeroDePlantas, $dimensiones);
         $this->social = $social;
         $this->numeroLicencia = $numeroLicencia;
     }
