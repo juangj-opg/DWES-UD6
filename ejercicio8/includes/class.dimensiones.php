@@ -40,7 +40,7 @@ class Dimensiones{
 
     public function __toString()
     {
-        return "alto=".$this->alto.",ancho=".$this->ancho.",largo=".$this->largo;
+        return "<li>Alto: ".$this->alto."</li><li>Ancho: ".$this->ancho."</li><li>Largo: ".$this->largo."</li>";
     }
 }
 ?>

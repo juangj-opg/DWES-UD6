@@ -57,7 +57,7 @@ class Local{
     // Funcion __toString()
     public function __toString()
     {
-        return "<p>Ciudad: $this->ciudad<br></p><p>Calle: $this->calle</p><p>Plantas: $this->numeroDePlantas</p><p>Dimensiones: ($this->dimensiones)<br></p>";
+        return "<p>Ciudad: $this->ciudad<br></p><p>Calle: $this->calle</p><p>Plantas: $this->numeroDePlantas</p><p>Dimensiones: <ul>$this->dimensiones</ul></p>";
     }
     
     public function ___clone(){
