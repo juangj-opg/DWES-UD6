@@ -4,8 +4,9 @@ class Coche extends Cuatro_ruedas{
     private int $numero_cadenas_nieve;
 
     // Constructor de la clase Coche
-    public function __construct(int $numero_cadenas_nieve)
+    public function __construct(string $color, float $peso, int $numero_puertas, int $numero_cadenas_nieve)
     {
+        parent::__construct($color, $peso, $numero_puertas);
         $this->numero_cadenas_nieve = $numero_cadenas_nieve;
     }
 

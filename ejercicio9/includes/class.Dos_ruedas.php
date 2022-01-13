@@ -4,8 +4,9 @@ class Dos_ruedas extends Vehiculo{
     private string $cilindrada;
 
     // Constructor de la clase Dos_ruedas
-    public function __construct(string $cilindrada)
+    public function __construct(string $color, float $peso, string $cilindrada)
     {
+        parent::__construct($color, $peso);
         $this->cilindrada = $cilindrada;
     }
 
