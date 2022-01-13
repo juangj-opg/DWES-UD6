@@ -13,7 +13,7 @@ class Dos_ruedas extends Vehiculo{
     // Función poner_gasolina(litros)
     public function poner_gasolina(float $litros)
     {
-
+        $this->peso = $this->peso + ($litros * 1.5);
     }
 }
 ?>

@@ -1,13 +1,13 @@
 <?php
 /* 
 *  Ejercicio 9 - Apartado 3
-*  - Modifica el método repintar(color) para que cambie el color definido en Vehículo.
+*  - Modifica el método repintar(color) para que cambie el color definido en Vehículo. ✓
 *
 *  - Modifica el método poner_gasolina(litros) para que cambie el peso del 
-*    Vehículo según la cantidad de litros que se reposte. (Un litro equivale a 1,5 kilos).
+*    Vehículo según la cantidad de litros que se reposte. (Un litro equivale a 1,5 kilos). ✓
 *
 *  - Modifica los métodos añadir_cadenas_nieve() y quitar_cadenas_nieve() 
-*    modificando el atributo numero_cadenas_nieve.
+*    modificando el atributo numero_cadenas_nieve. ✓
 *
 *  - Modifica el método añadir_remolque(longitud_remolque) modificando el atributo longitud.
 *

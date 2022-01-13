@@ -13,7 +13,7 @@ class Cuatro_ruedas extends Vehiculo{
     // Función repintar(color)
     public function repintar(string $color)
     {
-
+        $this->color = $color;
     }
 }
 ?>

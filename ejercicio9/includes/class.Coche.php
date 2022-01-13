@@ -13,13 +13,13 @@ class Coche extends Cuatro_ruedas{
     // Función add_cadenas(num)
     public function add_cadenas(int $num)
     {
-
+        $this->numero_cadenas_nieve = $this->numero_cadenas_nieve + $num;
     }
 
     // Función quitar_cadenas_nieve(num)
     public function quitar_cadenas_nieve(int $num)
     {
-
+        $this->numero_cadenas_nieve = $this->numero_cadenas_nieve - $num;
     }
 }
 ?>
