@@ -10,10 +10,16 @@ class Camion extends Cuatro_ruedas{
         $this->longitud = $longitud;
     }
 
+    // Getter para longitud
+    public function Get_Longitud()
+    {
+        return $this->longitud;
+    }
+
     // Función add_remolque(longitud_remolque);
     public function add_remolque(float $longitud_remolque)
     {
-
+        $this->longitud = $this->longitud + $longitud_remolque;
     }
 }
 ?>

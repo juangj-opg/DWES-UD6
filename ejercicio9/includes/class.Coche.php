@@ -10,6 +10,12 @@ class Coche extends Cuatro_ruedas{
         $this->numero_cadenas_nieve = $numero_cadenas_nieve;
     }
 
+    // Getter para Numero_cadenas_Nieve
+    public function Get_Cadenas()
+    {
+        return $this->numero_cadenas_nieve;
+    }
+
     // Función add_cadenas(num)
     public function add_cadenas(int $num)
     {
@@ -21,5 +27,7 @@ class Coche extends Cuatro_ruedas{
     {
         $this->numero_cadenas_nieve = $this->numero_cadenas_nieve - $num;
     }
+
+    
 }
 ?>

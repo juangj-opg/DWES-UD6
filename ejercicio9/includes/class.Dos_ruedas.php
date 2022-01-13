@@ -1,13 +1,19 @@
 <?php
 class Dos_ruedas extends Vehiculo{
     // Declaración de variables
-    private string $cilindrada;
+    private int $cilindrada;
 
     // Constructor de la clase Dos_ruedas
-    public function __construct(string $color, float $peso, string $cilindrada)
+    public function __construct(string $color, float $peso, int $cilindrada)
     {
         parent::__construct($color, $peso);
         $this->cilindrada = $cilindrada;
+    }
+
+    // Getter para cilindrada
+    public function Get_Cilindrada()
+    {
+        return $this->cilindrada;
     }
 
     // Función poner_gasolina(litros)

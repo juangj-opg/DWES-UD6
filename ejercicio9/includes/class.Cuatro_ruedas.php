@@ -10,6 +10,12 @@ class Cuatro_ruedas extends Vehiculo{
         $this->numero_puertas = $numero_puertas;
     }
 
+    // Getter para numero_puertas
+    public function Get_Puertas()
+    {
+        return $this->numero_puertas;
+    }
+
     // Función repintar(color)
     public function repintar(string $color)
     {
