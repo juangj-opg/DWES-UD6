@@ -11,16 +11,28 @@ class Vehiculo{
         $this->peso = $peso;            
     }
 
+    // Setter (Modificador)
+    public function __set($variable, $valor)
+    {
+        $this->$variable = $valor;
+    }
+
+    // Getter (Consultador)
+    public function __get($variable)
+    {
+        return $this->$variable;
+    }
+
     // Función circula()
     public function circula()
     {
-
+        echo "El vehículo está circulando.";
     }
 
-    // Función añadir_persona
-    public function añadir_persona(float $peso_persona)
+    // Función add_persona
+    public function add_persona(float $peso_persona)
     {
-
+        $this->peso = $this->peso + $peso_persona;
     }
 }
 ?>
