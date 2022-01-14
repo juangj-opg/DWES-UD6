@@ -10,6 +10,16 @@ class Coche extends Cuatro_ruedas{
         $this->numero_cadenas_nieve = $numero_cadenas_nieve;
     }
 
+    // Getter (Consultador)
+    public function __get($variable)
+    {
+        //return $this->$variable;
+        if(property_exists(get_class(),$variable))
+            return $this->$variable;
+        else
+            return parent::__get($variable);
+    }
+    
     // Getter para Numero_cadenas_Nieve
     public function Get_Cadenas()
     {

@@ -10,6 +10,16 @@ class Camion extends Cuatro_ruedas{
         $this->longitud = $longitud;
     }
 
+    // Getter (Consultador)
+    public function __get($variable)
+    {
+        //return $this->$variable;
+        if(property_exists(get_class(),$variable))
+            return $this->$variable;
+        else
+            return parent::__get($variable);
+    }
+    
     // Getter para longitud
     public function Get_Longitud()
     {
