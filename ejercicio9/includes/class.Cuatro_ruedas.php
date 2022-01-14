@@ -10,7 +10,6 @@ class Cuatro_ruedas extends Vehiculo{
         $this->numero_puertas = $numero_puertas;
     }
     
-    // Getter (Consultador)
     public function __get($variable)
     {
         //return $this->$variable;
@@ -36,6 +35,7 @@ class Cuatro_ruedas extends Vehiculo{
     public function repintar(string $color)
     {
         $this->color = $color;
+        $this->numero_cambio_color = $this->numero_cambio_color + 1;
     }
 
     // Función add_persona

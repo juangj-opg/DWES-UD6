@@ -3,18 +3,25 @@ abstract class Vehiculo{
     // Declaración de variables
     private string $color;
     private float $peso;
+    static protected int $numero_cambio_color = 0;
     
     // Constructor de la clase Vehiculo
-    public function __construct(string $color, float $peso)
+    public function __construct(string $color, float $peso, int $numero_cambio_color=0)
     {
         $this->color = $color;
-        $this->peso = $peso;            
+        $this->peso = $peso;   
+        $this->numero_cambio_color = $numero_cambio_color;         
     }
 
     // Setter (Modificador)
     public function __set($variable, $valor)
     {
-        $this->$variable = $valor;
+        if ($this->peso > 2100){
+            echo "El peso total del vehículo es mayor 2100kg, no se añadirá ninguna persona o algún otro tipo de peso";
+            die();
+        } else
+            $this->$variable = $valor;
+
     }
 
     // Getter (Consultador)
@@ -44,6 +51,8 @@ abstract class Vehiculo{
             echo "Color: ".$obj->color."<br>";
         if(isset($obj->peso))
             echo "Peso: ".$obj->peso."<br>";
+        if(isset($obj->numero_cambio_color))
+            echo "Nº de veces que ha cambiado de color: ".$obj->numero_cambio_color."<br>";
         if($obj->numero_puertas != null)
             echo "Nº de puertas:: ".$obj->numero_puertas."<br>";
         if($obj->cilindrada != null)

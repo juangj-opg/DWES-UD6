@@ -6,7 +6,7 @@ class Coche extends Cuatro_ruedas{
     // Constructor de la clase Coche
     public function __construct(string $color, float $peso, int $numero_puertas, int $numero_cadenas_nieve)
     {
-        parent::__construct($color, $peso, $numero_puertas);
+        parent::__construct($color, $peso, $numero_puertas,);
         $this->numero_cadenas_nieve = $numero_cadenas_nieve;
     }
 
@@ -19,7 +19,7 @@ class Coche extends Cuatro_ruedas{
         else
             return parent::__get($variable);
     }
-    
+
     // Getter para Numero_cadenas_Nieve
     public function Get_Cadenas()
     {
@@ -36,6 +36,15 @@ class Coche extends Cuatro_ruedas{
     public function quitar_cadenas_nieve(int $num)
     {
         $this->numero_cadenas_nieve = $this->numero_cadenas_nieve - $num;
+    }
+
+    // Apartado 5 - Función add_persona
+    public function add_persona(float $peso_persona)
+    {
+        $this->peso = $this->peso + $peso_persona;
+        if($this->peso >= 1500)
+            if ($this->numero_cadenas_nieve <=2)
+                echo "Atención, ponga 4 cadenas para la nieve.";
     }
 
     
