@@ -6,6 +6,8 @@ function getConnection(){
     return $db;   
 }
 
+// Ejercicio 10
+
 function getLibros(){
     $db = getConnection();
     $result = $db->query('SELECT titulo, precio FROM libros');
@@ -14,6 +16,8 @@ function getLibros(){
         $libros[] = $libro;
     return $libros;
 }
+
+// Ejercicio 11
 
 function getLibro($id){
     $db = getConnection();

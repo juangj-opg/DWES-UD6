@@ -1,5 +1,7 @@
 <?php 
     
+    // Ejercicio 10
+
     function listar()
     {
         // Se incluye el modelo
@@ -9,6 +11,8 @@
         // La vista recibe un array para mostrarlo por pantalla
         include "views/libros_listar.php";
     }
+
+    // Ejercicio 11
 
     function obtener()
     {

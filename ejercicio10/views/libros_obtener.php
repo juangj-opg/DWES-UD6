@@ -1,7 +1,8 @@
 <html>
 <head>
-<title>Catálogo libros</title>
-    </head>
+    <title>Catálogo libro</title>
+    <!-- Ejercicio 11 -->
+</head>
     <body>
         <h1>Libros dados de alta en nuestra libreria</h1>
         <table border="1">
