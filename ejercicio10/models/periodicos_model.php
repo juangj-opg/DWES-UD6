@@ -17,5 +17,14 @@ function getPeriodicos(){
     return $periodicos;
 }
 
+// Ejercicio 13
+
+function getPeriodico($id){
+    $db = getConnection();
+    $result = $db->query('SELECT nombre, fecha FROM periodicos WHERE id='.$id);
+    $result->execute();
+    $periodico = $result->fetch(\PDO::FETCH_ASSOC);
+    return $periodico;
+}
 
 ?>
